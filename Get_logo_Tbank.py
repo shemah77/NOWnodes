@@ -367,7 +367,7 @@ def get_isin (uid: str) -> str:
     headers = {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'Authorization': f'Bearer t.szuyzM9-XJdOHb0aV2ZZJO-h5Bm91XISQg7BF0PTdclX1stGYwZZEYLkevshgJ3fDn_bFWJKsincX2rtc-IkqA'
+            'Authorization': f'Bearer {API_KEY}'
          }
     conn.request(
             "POST",
