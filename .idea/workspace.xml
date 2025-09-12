@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0250ba1e-4681-4a8a-9883-dad449f7c906" name="Changes" comment="SOL TON ETH working">
-      <change afterPath="$PROJECT_DIR$/testSOL_solana_com.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSOL_token_sol_com.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_HeliusSOL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_Helius_SOL_stake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_SOL_ger_all_tokens.py" afterDir="false" />
+    <list default="true" id="0250ba1e-4681-4a8a-9883-dad449f7c906" name="Changes" comment="SOL Helius API  working">
+      <change afterPath="$PROJECT_DIR$/Get_logo_Tbank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenFigi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests_yfinance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_for_fam_fin.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Get_logo_Tbank.executor": "Run",
+    "Python.Logo_get.executor": "Run",
+    "Python.OpenFigi.executor": "Run",
     "Python.TestETH_nownodes.executor": "Run",
     "Python.TestSOL.executor": "Run",
+    "Python.fetch_logo.executor": "Run",
+    "Python.func_for_fam_fin.executor": "Run",
+    "Python.models.executor": "Run",
     "Python.testBlockChain.executor": "Run",
     "Python.testETH.executor": "Run",
     "Python.testSOL_solana_com.executor": "Run",
@@ -53,6 +59,7 @@
     "Python.test_HeliusSOL.executor": "Run",
     "Python.test_Helius_SOL_stake.executor": "Run",
     "Python.test_SOL_ger_all_tokens.executor": "Run",
+    "Python.tests_yfinance.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -66,8 +73,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test_Helius_SOL_stake">
-    <configuration name="TestSOL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Get_logo_Tbank">
+    <configuration name="Get_logo_Tbank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +88,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestSOL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Get_logo_Tbank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testSOL_token_sol_com" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Logo_get" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +111,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testSOL_token_sol_com.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logo_get.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_HeliusSOL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenFigi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_HeliusSOL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenFigi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_Helius_SOL_stake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fetch_logo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +157,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_Helius_SOL_stake.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fetch_logo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_SOL_ger_all_tokens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tests_yfinance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +180,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_SOL_ger_all_tokens.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_yfinance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_Helius_SOL_stake" />
-        <item itemvalue="Python.test_HeliusSOL" />
-        <item itemvalue="Python.TestSOL" />
-        <item itemvalue="Python.test_SOL_ger_all_tokens" />
-        <item itemvalue="Python.testSOL_token_sol_com" />
+        <item itemvalue="Python.Get_logo_Tbank" />
+        <item itemvalue="Python.OpenFigi" />
+        <item itemvalue="Python.tests_yfinance" />
+        <item itemvalue="Python.fetch_logo" />
+        <item itemvalue="Python.Logo_get" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +215,9 @@
       <option name="presentableId" value="Default" />
       <updated>1756811353952</updated>
       <workItem from="1756811366550" duration="10691000" />
-      <workItem from="1757335261621" duration="8550000" />
+      <workItem from="1757335261621" duration="10382000" />
+      <workItem from="1757509071618" duration="5663000" />
+      <workItem from="1757662974574" duration="9163000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -234,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756915692337</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SOL Helius API  working">
+      <option name="closed" value="true" />
+      <created>1757426763183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757426763183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,20 +271,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="SOL TON ETH working" />
-    <option name="LAST_COMMIT_MESSAGE" value="SOL TON ETH working" />
+    <MESSAGE value="SOL Helius API  working" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOL Helius API  working" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$test_Helius_SOL_stake.coverage" NAME="test_Helius_SOL_stake Coverage Results" MODIFIED="1757425005703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$models.coverage" NAME="models Coverage Results" MODIFIED="1757509612686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/Lib/site-packages/requests" />
+    <SUITE FILE_PATH="coverage/pythonProject$test_Helius_SOL_stake.coverage" NAME="test_Helius_SOL_stake Coverage Results" MODIFIED="1757426032198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testBlockChain.coverage" NAME="testBlockChain Coverage Results" MODIFIED="1756812362968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$TestSOL.coverage" NAME="TestSOL Coverage Results" MODIFIED="1757414519084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Logo_get.coverage" NAME="Logo_get Coverage Results" MODIFIED="1757509837695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testTONNownodes2.coverage" NAME="testTONNownodes2 Coverage Results" MODIFIED="1756913948438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$test_HeliusSOL.coverage" NAME="test_HeliusSOL Coverage Results" MODIFIED="1757416624405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Get_logo_Tbank.coverage" NAME="Get_logo_Tbank Coverage Results" MODIFIED="1757682749909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$OpenFigi.coverage" NAME="OpenFigi Coverage Results" MODIFIED="1757663220993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testTON.coverage" NAME="testTON Coverage Results" MODIFIED="1756914357483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$func_for_fam_fin.coverage" NAME="func_for_fam_fin Coverage Results" MODIFIED="1757426859731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$TestETH_nownodes.coverage" NAME="TestETH_nownodes Coverage Results" MODIFIED="1756915673889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$fetch_logo.coverage" NAME="fetch_logo Coverage Results" MODIFIED="1757509932487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testTONNownodes.coverage" NAME="testTONNownodes Coverage Results" MODIFIED="1756912884039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testSOL_solana_com.coverage" NAME="testSOL_solana_com Coverage Results" MODIFIED="1757337123331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$test_SOL_ger_all_tokens.coverage" NAME="test_SOL_ger_all_tokens Coverage Results" MODIFIED="1757337645541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testSOL_token_sol_com.coverage" NAME="testSOL_token_sol_com Coverage Results" MODIFIED="1757337231397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$testETH.coverage" NAME="testETH Coverage Results" MODIFIED="1756915660571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$tests_yfinance.coverage" NAME="tests_yfinance Coverage Results" MODIFIED="1757515080677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
